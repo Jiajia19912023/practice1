@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WASHROOM FINDER</title>
+
+<style>
+  
+h1{
+text-align:center;
+
+}
+
+    .container {
+        border: 2px solid #000;
+        padding: 10px;
+        text-align: center; /* 中央揃え */
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex; /* Flexboxを使用して3列に配置 */
+        flex-wrap: wrap; /* 要素が枠からはみ出す場合に折り返し */
+        justify-content: center; /* 横方向（主軸）を中央揃え */
+    }
+    li {
+        margin-bottom: 5px;
+        width: calc(33.33% - 10px); /* 3列にするための幅を計算 */
+        padding: 5px;
+        box-sizing: border-box; /* paddingを含めた要素の幅にする */
+    }
+</style>
+</head>
+<h1>Don't worry about looking for a washroom anymore in Vancouver</h1>
+<body>
+  <h2>Likely ☆☆☆</h2>
+
+<div class="container">
+    <ul>
+        <li>McDonald's</li>
+        <li>Community Center(during open hours)</li>
+        <li>Safeway</li>
+        <li>Costco</li>
+        <li>Real Canadian Super Store</li>
+        <li>T&T</li>
+        <li>Petro station</li>
+        <li>In a college</li>
+        <li>Canadian Tire</li>
+        <li>IKEA</li>
+        <li>In a mall(Metropolis,Lansdowne Centre,CF Richmond Centre etc,)</li>
+        <li>Vancouver Public Library(during open hours)</li>
+    </ul>
+</div>
+
+<h2>Likely ☆☆</h2>
+
+<div class="container">
+    <ul>
+        <li>SUBWAY(depends)</li>
+        <li>Starbucks</li>
+        <li>Dollarama</li>
+      
+    </ul>
+</div>
+<h2>Likely ☆</h2>
+
+<div class="container">
+    <ul>
+        <li>Cafe(You may need to order something.)</li>
+        <li>Some restaurant</li>
+       
+    </ul>
+  </div>
+    <h2>NEVER</h2>
+
+<div class="container">
+    <ul>
+        <li>At station</li>
+        <li>At park</li>
+       
+    </ul>
+    </div>
+
+</body>
+</html>
